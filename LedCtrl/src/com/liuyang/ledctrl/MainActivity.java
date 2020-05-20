@@ -1,5 +1,6 @@
 package com.liuyang.ledctrl;
 
+<<<<<<< HEAD
 import android.R.bool;
 import android.os.Bundle;
 import android.app.Activity;
@@ -16,11 +17,19 @@ public class MainActivity extends Activity {
 	private CheckBox checkBoxLed3 = null;
 	private CheckBox checkBoxLed4 = null;
 	private boolean ledon = false;
+=======
+import android.os.Bundle;
+import android.app.Activity;
+import android.view.Menu;
+
+public class MainActivity extends Activity {
+>>>>>>> 84b6759ef3e9dd3b8f25d9572bf6285cdff8f952
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+<<<<<<< HEAD
         
         button = (Button)findViewById(R.id.BUTTON);
         checkBoxLed1 = (CheckBox)findViewById(R.id.LED1);
@@ -48,6 +57,8 @@ public class MainActivity extends Activity {
 					checkBoxLed4.setChecked(ledon);
 			}
 		});
+=======
+>>>>>>> 84b6759ef3e9dd3b8f25d9572bf6285cdff8f952
     }
 
 
