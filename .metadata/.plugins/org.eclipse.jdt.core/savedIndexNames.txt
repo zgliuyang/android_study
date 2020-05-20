@@ -1,0 +1,4 @@
+INDEX VERSION 1.126+C:\Users\86184\Desktop\yang_2020\android_study\.metadata\.plugins\org.eclipse.jdt.core
+15337551.index
+1056302509.index
+1407150289.index
