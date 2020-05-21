@@ -57,27 +57,27 @@ public class MainActivity extends Activity {
     	switch(view.getId()) {
     	case R.id.LED1:
     		if(checked)
-    			Toast.makeText(getApplicationContext(), "LED1 ON", Toast.LENGTH_SHORT).show();
+    			Toast.makeText(getApplicationContext(), "LED1 ON", Toast.LENGTH_SHORT);
     		else
-    			Toast.makeText(getApplicationContext(), "LED1 OFF", Toast.LENGTH_SHORT).show();
+    			Toast.makeText(getApplicationContext(), "LED1 OFF", Toast.LENGTH_SHORT);
     		break;
     	case R.id.LED2:
     		if(checked)
-    			Toast.makeText(getApplicationContext(), "LED2 ON", Toast.LENGTH_SHORT).show();
+    			Toast.makeText(getApplicationContext(), "LED2 ON", Toast.LENGTH_SHORT);
     		else
-    			Toast.makeText(getApplicationContext(), "LED2 OFF", Toast.LENGTH_SHORT).show();
+    			Toast.makeText(getApplicationContext(), "LED2 OFF", Toast.LENGTH_SHORT);
     		break;
     	case R.id.LED3:
     		if(checked)
-    			Toast.makeText(getApplicationContext(), "LED3 ON", Toast.LENGTH_SHORT).show();
+    			Toast.makeText(getApplicationContext(), "LED3 ON", Toast.LENGTH_SHORT);
     		else
-    			Toast.makeText(getApplicationContext(), "LED3 OFF", Toast.LENGTH_SHORT).show();
+    			Toast.makeText(getApplicationContext(), "LED3 OFF", Toast.LENGTH_SHORT);
     		break;
     	case R.id.LED4:
     		if(checked)
-    			Toast.makeText(getApplicationContext(), "LED4 ON", Toast.LENGTH_SHORT).show();
+    			Toast.makeText(getApplicationContext(), "LED4 ON", Toast.LENGTH_SHORT);
     		else
-    			Toast.makeText(getApplicationContext(), "LED4 OFF", Toast.LENGTH_SHORT).show();
+    			Toast.makeText(getApplicationContext(), "LED4 OFF", Toast.LENGTH_SHORT);
     		break;
     		
     	}

@@ -24,16 +24,12 @@ public final class R {
         public static final int ic_launcher=0x7f020000;
     }
     public static final class id {
-<<<<<<< HEAD
         public static final int BUTTON=0x7f080000;
         public static final int LED1=0x7f080001;
         public static final int LED2=0x7f080002;
         public static final int LED3=0x7f080003;
         public static final int LED4=0x7f080004;
         public static final int action_settings=0x7f080005;
-=======
-        public static final int action_settings=0x7f080000;
->>>>>>> 84b6759ef3e9dd3b8f25d9572bf6285cdff8f952
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
